@@ -61,7 +61,7 @@
 &lt 6 ESC  &kp Q                 &kp W     &kp E         &kp R             &kp T                                               &kp Y      &kp U  &kp I      &kp O    &kp P            &kp MINUS
 &kp TAB    &kp A                 &kp S     &kp D         &kp F             &kp G        &mkp MCLK           &kp CARET          &kp H      &kp J  &kp K      &kp L    &lt 4 SEMICOLON  &lt 5 COLON
 &kp LSHFT  &kp Z                 &kp X     &kp C         &kp V             &kp B        &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH         &kp UNDERSCORE
-&kp LCTRL  &lt 1 LC(LA(DELETE))  &kp LALT  &kp LEFT_GUI  &lt 2 LANGUAGE_1  &lt 4 SPACE  &lt 5 LANG2         &kp BACKSPACE      &kp ENTER                             &kp AT_SIGN      &kp RCTRL
+&kp LCTRL  &lt 1 LC(LA(DELETE))  &kp LALT  &kp LEFT_GUI  &lt 2 LANGUAGE_2  &lt 4 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE      &kp ENTER                             &kp AT_SIGN      &kp RCTRL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
