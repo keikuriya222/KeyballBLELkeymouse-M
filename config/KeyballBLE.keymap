@@ -85,7 +85,7 @@
         default_layer {
             bindings = <
 &lt 6 ESC  &kp Q                 &kp W     &kp E         &kp R                      &kp T                                              &kp Y        &kp U  &kp I      &kp O    &kp P            &kp MINUS
-&kp TAB    &kp A                 &kp S     &kp D         &kp F                      &kp G        &mkp MCLK           &kp JP_AMPERSAND  &kp H        &kp J  &kp K      &kp L    &lt 4 SEMICOLON  &lt 5 SINGLE_QUOTE
+&kp TAB    &kp A                 &kp S     &kp D         &kp F                      &kp G        &kp JP_AT           &kp JP_AMPERSAND  &kp H        &kp J  &kp K      &kp L    &lt 4 SEMICOLON  &kp JP_COLON
 &kp LSHFT  &kp Z                 &kp X     &kp C         &kp V                      &kp B        &kp JP_LBRACKET     &kp JP_RBRACKET   &kp N        &kp M  &kp COMMA  &kp DOT  &kp JP_PIPE      &kp JP_UNDERSCORE
 &kp LCTRL  &lt 1 LC(LA(DELETE))  &kp LALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 4 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE     &lt 2 ENTER                             &kp AT_SIGN      &kp RCTRL
             >;
@@ -125,7 +125,7 @@
         MOUSE {
             bindings = <
 &trans              &trans     &kp LC(W)  &kp LS(LC(E))  &kp LA(LS(R))  &kp LC(T)                                                 &kp LC(Y)      &kp LS(LC(TAB))  &kp LA(UP_ARROW)  &kp LC(TAB)  &kp LC(P)      &kp LC(AT_SIGN)
-&kp LA(TAB)         &kp LC(A)  &kp LC(S)  &kp LC(D)      &kp LC(F)      &kp LC(G)  &mkp MB3                &trans                 &kp LC(H)      &mkp MB1         &mkp MB3          &mkp MB2     &lt 5 SPACE    &trans
+&kp LA(TAB)         &kp LC(A)  &kp LC(S)  &kp LC(D)      &kp LC(F)      &kp LC(G)  &mkp MB3                &trans                 &kp LC(H)      &mkp MB1         &mkp MB3          &mkp MB2     &lt 5 SPACE    &kp LC(JP_AT)
 &kp LS(LA(LC(F3)))  &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)      &kp LC(B)  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LC(N)      &mkp MB4         &mkp MB5          &trans       &kp LC(SLASH)  &trans
 &kp LS(LA(LC(F3)))  &trans     &trans     &trans         &trans         &trans     &trans                  &kp DELETE             &kp LC(ENTER)                                                  &trans         &trans
             >;
