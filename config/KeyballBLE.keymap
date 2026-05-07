@@ -103,7 +103,7 @@
 
         NUM {
             bindings = <
-&kp LS(ESCAPE)  &kp EXCLAMATION             &kp JP_DQUOTE    &kp HASH         &kp DOLLAR       &kp PERCENT                                                     &kp JP_AMPERSAND  &kp JP_QUOTE       &kp JP_LBRACKET &kp JP_RBRACKET  &kp JP_CARET  &kp JP_EQUAL
+&kp LS(ESCAPE)  &kp EXCLAMATION             &kp JP_DQUOTE    &kp HASH         &kp DOLLAR       &kp PERCENT                                                     &kp JP_AMPERSAND  &kp JP_QUOTE       &kp JP_LPAREN  &kp JP_RPAREN     &kp JP_CARET  &kp JP_EQUAL
 &trans          &kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE         &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp N9            &kp NUMBER_0  &kp CARET
 &trans          &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
 &trans          &trans                      &trans           &trans           &trans           &trans        &trans                     &trans                 &trans                                                                &kp PIPE      &trans
