@@ -56,7 +56,7 @@
         };
 
         comboNUBS {
-            bindings = <&kp BSLH>;
+            bindings = <&kp JP_YEN>;
             key-positions = <11 10>;
         };
     };
