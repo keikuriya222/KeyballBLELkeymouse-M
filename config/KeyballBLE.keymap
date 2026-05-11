@@ -56,7 +56,7 @@
         };
 
         comboNUBS {
-            bindings = <&kp NUBS>;
+            bindings = <&kp BSLH>;
             key-positions = <11 10>;
         };
     };
