@@ -69,6 +69,26 @@
             bindings = <&kp RIGHT_WIN>;
             key-positions = <47 48>;
         };
+
+        tabcombo {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+        };
+
+        shiftcombo {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <27 28>;
+        };
+
+        leftcombo {
+            bindings = <&kp LCTRL>;
+            key-positions = <41 42>;
+        };
+
+        esccombo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
