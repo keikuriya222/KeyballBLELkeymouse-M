@@ -59,6 +59,11 @@
             bindings = <&kp JP_YEN>;
             key-positions = <11 10>;
         };
+
+        windowssleepunlock {
+            bindings = <&kp LC(LA(DELETE))>;
+            key-positions = <50 49>;
+        };
     };
 
     macros {
@@ -95,10 +100,10 @@
 
         default_layer {
             bindings = <
-&lt 6 ESC  &kp Q  &kp W     &kp E         &kp R                      &kp T                                              &kp Y        &kp U  &kp I      &kp O    &kp P                 &kp MINUS
-&kp TAB    &kp A  &kp S     &kp D         &kp F                      &kp G        &kp JP_AT           &kp JP_AMPERSAND  &kp H        &kp J  &kp K      &kp L    &lt 4 SEMICOLON       &lt 5 APOS
-&kp LSHFT  &kp Z  &kp X     &kp C         &kp V                      &kp B        &kp JP_LBRACKET     &kp JP_RBRACKET   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH             &kp INT1
-&kp LCTRL  &mo 1  &kp LALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 4 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE     &lt 2 ENTER                             &lt 1 LC(LA(DELETE))  &kp RCTRL
+&lt 6 ESC  &kp Q  &kp W     &kp E         &kp R                      &kp T                                              &kp Y        &kp U  &kp I      &kp O    &kp P            &kp MINUS
+&kp TAB    &kp A  &kp S     &kp D         &kp F                      &kp G        &kp JP_AT           &kp JP_AMPERSAND  &kp H        &kp J  &kp K      &kp L    &lt 4 SEMICOLON  &lt 5 APOS
+&kp LSHFT  &kp Z  &kp X     &kp C         &kp V                      &kp B        &kp JP_LBRACKET     &kp JP_RBRACKET   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH        &kp INT1
+&kp LCTRL  &mo 1  &kp LALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 4 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE     &lt 2 ENTER                             &kp CARET        &kp RCTRL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
