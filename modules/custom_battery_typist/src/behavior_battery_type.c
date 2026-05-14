@@ -250,8 +250,8 @@ static int get_peripheral_battery(void) {
 
 static int on_keymap_binding_pressed(struct zmk_behavior_binding *binding,
                                      struct zmk_behavior_binding_event event) {
-    int left_bat = get_central_battery();
-    int right_bat = get_peripheral_battery();
+    int right_bat = get_central_battery();
+    int left_bat = get_peripheral_battery();
 
     /* Send: FORMAT_PREFIX + left_value + FORMAT_MIDDLE + right_value + FORMAT_SUFFIX */
     send_string(FORMAT_PREFIX);
