@@ -65,9 +65,9 @@
             key-positions = <50 49>;
         };
 
-        thumbwindows {
+        macrowindows {
             bindings = <&kp RIGHT_WIN>;
-            key-positions = <47 48>;
+            key-positions = <35 36>;
         };
 
         tabcombo {
@@ -118,7 +118,7 @@
 
             tap-ms = <20>;
         };
-        
+
         battery_type: battery_type {
             compatible = "zmk,behavior-battery-type";
             #binding-cells = <0>;
