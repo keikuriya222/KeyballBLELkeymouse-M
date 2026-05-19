@@ -172,7 +172,7 @@
             bindings = <
 &trans              &trans     &kp LC(W)  &kp LS(LC(E))  &kp LA(LS(R))  &kp LC(T)                                                 &kp LC(Y)      &kp LS(LC(TAB))  &kp LA(UP_ARROW)  &kp LC(TAB)  &kp LC(P)      &kp LC(AT_SIGN)
 &kp LA(TAB)         &kp LC(A)  &kp LC(S)  &kp LC(D)      &kp LC(F)      &kp LC(G)  &mkp MB3                &trans                 &kp LC(H)      &mkp MB1         &mkp MB3          &mkp MB2     &lt 5 SPACE    &kp LC(JP_AT)
-&kp LS(LA(LC(F3)))  &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)      &kp LC(B)  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LC(N)      &mkp MB4         &mkp MB5          &trans       &kp LC(SLASH)  &trans
+&kp LEFT_SHIFT      &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)      &kp LC(B)  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LC(N)      &mkp MB4         &mkp MB5          &trans       &kp LC(SLASH)  &trans
 &kp LS(LA(LC(F3)))  &trans     &trans     &trans         &trans         &trans     &trans                  &kp DELETE             &kp LC(ENTER)                                                  &trans         &trans
             >;
         };
